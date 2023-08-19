@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>fluttertodoapp</string>
+	<string>flutter_todo_app</string>
 <key>CFBundleDisplayName</key>
 <string>fluttertodoapp</string>
 	<key>CFBundlePackageType</key>
