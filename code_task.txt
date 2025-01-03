@@ -9,6 +9,6 @@
 6. Total check digantikan dengan jumlah dari todo yang aktif dan telah berstatus selesai. sedangkan total digantikan
    dengan total todo yang saat ini telah diinput.
 
-requirement: gunakan getx dependency sebagai state management.
+requirement: gunakan state management (Provider, getx etc...).
 
 estimasi: 1 jam 5 menit.
