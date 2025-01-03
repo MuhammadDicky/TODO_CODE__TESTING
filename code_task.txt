@@ -1,14 +1,21 @@
-1. Hubungkan halaman home dengan new_todo. Ketika user klik tombol +, maka user akan diarahkan kehalaman
+1. Pada halaman utama, tarik daftar todo list menggunakan api yang sudah ditentukan dengan total todo list yang ditarik
+   sebanyak 25.
+2. Hubungkan halaman home dengan new_todo. Ketika user klik tombol +, maka user akan diarahkan kehalaman
    input todo.
-2. Dihalaman new_todo, ketika input new todo diisi dan user menekan tombol +, maka user akan diarahkan kembali
-   kehalaman home dengan todo yang sebelum nya diinput tadi berada pada baris paling atas.
-3. Fungsi kan checkbox pada daftar todo dimana jika user menekan checkbox maka todo tadi akan selesai dan berada pada
-   barisan daftar todo yang sudah dicek sebelumnya.
-4. Fungsikan tombol hapus pada baris data todo.
-5. Fungsikan pencarian todo pada input searchbox pada halaman home.
-6. Total check digantikan dengan jumlah dari todo yang aktif dan telah berstatus selesai. sedangkan total digantikan
+3. Dihalaman new_todo, ketika input new todo diisi dan user menekan tombol +, maka akan terjadi request add todo ke api
+   dan jika berhasil makan user akan diarahkan kembali kehalaman home dengan todo yang sebelum nya diinput tadi 
+   berada pada baris paling atas.
+4. Fungsi kan checkbox pada daftar todo dimana jika user menekan checkbox maka request update todo akan terjadi dan jika
+   berhasil maka todo tadi akan selesai dan berada pada barisan daftar todo yang sudah dicek sebelumnya yaitu berada
+   dibagian bawah.
+5. Fungsikan tombol hapus pada baris data todo dan request untuk ke api untuk menghapus todo dari daftar.
+6. Fungsikan pencarian todo pada input searchbox pada halaman home.
+7. Total check digantikan dengan jumlah dari todo yang aktif dan telah berstatus selesai. sedangkan total digantikan
    dengan total todo yang saat ini telah diinput.
 
-requirement: gunakan getx dependency sebagai state management.
+requirement: 
+1. Gunakan state management (Provider, getx etc...).
+2. Gunakan api dari halaman https://dummyjson.com/docs/todos untuk mengambil, menambahkan, update dan menghapus
+   data todo list.
 
-estimasi: 1 jam 5 menit.
+estimasi: 1 jam 15 menit.
